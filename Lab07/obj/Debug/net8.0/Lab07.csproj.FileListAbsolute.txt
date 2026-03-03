@@ -1,0 +1,12 @@
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/bin/Debug/net8.0/Lab07.deps.json
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/bin/Debug/net8.0/Lab07.dll
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/bin/Debug/net8.0/Lab07.pdb
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/Lab07.GeneratedMSBuildEditorConfig.editorconfig
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/Lab07.AssemblyInfoInputs.cache
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/Lab07.AssemblyInfo.cs
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/Lab07.csproj.CoreCompileInputs.cache
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/Lab07.sourcelink.json
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/Lab07.dll
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/refint/Lab07.dll
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/Lab07.pdb
+/home/nobaraneko/Documents/School/CS1410/lab-7-enumerator-and-enumerable-JOSnow985/Lab07/obj/Debug/net8.0/ref/Lab07.dll

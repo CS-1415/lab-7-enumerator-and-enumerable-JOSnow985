@@ -7,7 +7,6 @@ public class LinkedListEnumerator<T> : IDisposable, IEnumerator, IEnumerator<T>
     // Properties
     public DNode<T>? FirstNode { get; }
     public DNode<T>? CurrentNode { get; private set; }
-
     // Constructor
     public LinkedListEnumerator(DNode<T>? node) => FirstNode = node;
 

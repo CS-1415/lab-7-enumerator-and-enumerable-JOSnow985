@@ -8,7 +8,6 @@ while (true)
     PrintMenu();
     switch (Console.ReadKey(true).Key)
     {
-        // Escape ends the program
         case ConsoleKey.Escape:
             return;
         case ConsoleKey.B:
@@ -36,7 +35,7 @@ while (true)
 // --- Methods ---
 void PrintMenu()
 {
-    // Print some kind of header
+    // Print Header
     Console.WriteLine("Demo of Jaden's Doubly Linked List\nToday's Special: Listing Strings\n");
     // Print Controls
     Console.WriteLine("B: Add a string to the [B]eginning of the list\n"

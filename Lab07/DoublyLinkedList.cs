@@ -1,6 +1,8 @@
-﻿namespace Lab06;
+﻿using System.Collections;
 
-public class DoublyLinkedList<T> : IDoubleEndedCollection<T> 
+namespace Lab07;
+
+public class DoublyLinkedList<T> : IDoubleEndedCollection<T>, IEnumerable<T>
 {
     private DNode<T>? _head = null;
     private DNode<T>? _tail = null;
@@ -144,5 +146,17 @@ public class DoublyLinkedList<T> : IDoubleEndedCollection<T>
         }
 
         (_head, _tail) = (_tail, _head);
+    }
+
+    // IEnumberable<T> interface
+
+    public IEnumerator<T> GetEnumerator()
+    {
+        throw new NotImplementedException();
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
     }
 }

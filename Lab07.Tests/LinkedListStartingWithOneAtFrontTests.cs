@@ -1,4 +1,4 @@
-namespace Lab06.Tests;
+namespace Lab07.Tests;
 
 public class OneAtFrontTests
 {

@@ -11,12 +11,6 @@ public class DoublyLinkedList<T> : IDoubleEndedCollection<T>, IEnumerable<T>
     public T First => Length == 0 ? throw new InvalidOperationException("List Empty!") : _head!.Value;
     public T Last => Length == 0 ? throw new InvalidOperationException("List Empty!") : _tail!.Value;
 
-    // IEnumberable<T> interface
-
-    public IEnumerator<T> GetEnumerator() => new LinkedListEnumerator<T>(_head);
-
-    IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
-
     public void AddLast(T value)
     {
         DNode<T> newNode = new(value);
@@ -153,4 +147,9 @@ public class DoublyLinkedList<T> : IDoubleEndedCollection<T>, IEnumerable<T>
 
         (_head, _tail) = (_tail, _head);
     }
+
+    // IEnumerable<T> interface
+    public IEnumerator<T> GetEnumerator() => new LinkedListEnumerator<T>(_head);
+
+    IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 }

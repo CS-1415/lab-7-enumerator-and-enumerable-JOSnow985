@@ -47,15 +47,16 @@ public class LinkedListEnumerator<T> : IDisposable, IEnumerator, IEnumerator<T>
             return false;
     }
 
-    public void Reset()
-    {
-        throw new NotImplementedException();
-    }
+    // If I understand the definition correctly, this should "Reset" us to before the first element
+    // If we try to MoveNext from here we will be at FirstNode.
+    public void Reset() => CurrentNode = null;
 
     // Left empty as instructed
     public void Dispose(){}
 }
 
+
+// --- Interface definitions ---
 /*
     // --- IEnumerator ---
     // Summary:
@@ -85,7 +86,7 @@ public class LinkedListEnumerator<T> : IDisposable, IEnumerator, IEnumerator<T>
     //     The enumerator does not support being reset.
     public void Reset(){}
 
-    // -- IEnumerator<T>
+    // --- IEnumerator<T> ---
     //
     // Summary:
     //     Gets the element in the collection at the current position of the enumerator.
